@@ -1,0 +1,19 @@
+.vscode
+# Fichiers de configuration locaux de Terraform
+.terraform/
+
+# Fichier de verrouillage de Terraform
+.terraform.lock.hcl
+
+# Fichiers de variables sensibles
+*.tfvars
+
+# Fichiers de plan de Terraform
+*.tfplan
+
+# Fichiers de sortie de Terraform
+*.tfstate
+*.tfstate.backup
+
+# Fichiers de sauvegarde générés par certains éditeurs
+*~
