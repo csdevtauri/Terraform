@@ -1,3 +1,5 @@
+# Définition des Variables : Ce fichier est utilisé pour définir toutes les variables que vous utiliserez dans vos fichiers de configuration Terraform. Il sert de "dictionnaire" pour toutes les variables que vous pouvez paramétrer.
+
 variable "ARM_SUBSCRIPTION_ID" {
   description = "ID de l'abonnement Azure"
 }
